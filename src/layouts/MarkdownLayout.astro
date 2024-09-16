@@ -1,0 +1,25 @@
+---
+import BaseLayout from "./Layout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+    <div class="gif">
+        <img width="250" height="300" src="/assets/work.webp" alt="Work">
+    </div>
+    <h2>{frontmatter.title}</h2>
+    <slot />
+    <ul class="badge-list">
+        <li><span class="badge badge-item">PLATFORM</span>{frontmatter.platform}</li>
+        <li><span class="badge badge-item">STACK</span>{frontmatter.stack}</li>
+        <li><span class="badge badge-item">WEBSITE</span><a href={frontmatter.website} target="_blank" class="badge-link">{frontmatter.website}</a></li>
+        <li><span class="badge badge-item">GITHUB</span><a href={frontmatter.github} target="_blank" class="badge-link">{frontmatter.github}</a></li>
+    </ul>
+    <div class="center">
+        <img width="500" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} class="pro-img" />
+        {frontmatter.worksImage2.url
+            ? <img width="500" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} class="pro-img" />
+            : null 
+        }
+    </div>
+</BaseLayout>
