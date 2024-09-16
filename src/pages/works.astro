@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+const allProjects = await getCollection("projects");
+const pageTitle = "Projectos";
+---
+
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="250" height="300" src="/assets/work.webp" alt="Work">
+    </div>
+    <h2>Proyectos</h2>
+    <ul role="list" class="link-card-grid">
+        {allProjects.map((card) => 
+        <Card 
+            url={`/projects/${card.slug}`}
+            image={card.data.image.url}
+            title={card.data.title}
+            body={card.data.description}
+        />
+        )}
+    </ul>
+</Layout>

@@ -1,16 +1,61 @@
 ---
+import Layout from "../layouts/Layout.astro";
 
+const pageTitle = "Ismael Corbacho";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout pageTitle={pageTitle}>
+	<div class="gif">
+		<img width="250" height="300" src="/assets/dance.webp" alt="Coffee">
+	</div>
+	<h1>Ismael Corbacho</h1>
+    <span class="badge">Desarrollador Web</span>
+    <h2>Sobre mí</h2>
+    <p>
+        Soy un desarrollador web con pasión por la informática desde una edad temprana. 
+    </p>
+	<p>
+		Mi trayectoria comenzó 
+		con un grado medio en sistemas microinformáticos y redes, lo que me proporcionó una sólida base en la infraestructura 
+		tecnológica. Posteriormente, me especialicé en desarrollo de aplicaciones web mediante un grado superior, donde perfeccioné 
+		mis habilidades en la creación de interfaces de usuario intuitivas y funcionales.
+	</p>
+	<p>
+		Mi objetivo es continuar creciendo en el 
+		campo del desarrollo web, aplicando mi creatividad y conocimientos técnicos para ofrecer soluciones innovadoras y de alta 
+		calidad.
+	</p>
+	<div class="center">
+        <a href="/works/">
+            <button class="btn">Mis proyectos</button>
+        </a>
+    </div>
+	<h2>Tecnologías</h2>
+    <div class="skills center">
+		<img class="skills-img" width="46" height="46" alt="Next" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"/>
+		<img class="skills-img" width="46" height="46" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
+		<img class="skills-img" width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+        <img class="skills-img" width="46" height="46" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
+        <img class="skills-img" width="46" height="46" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+        <img class="skills-img" width="46" height="46" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+		<img class="skills-img" width="46" height="46" alt="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"/>
+        <img class="skills-img" width="46" height="46" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
+    </div>
+    <h2>Intereses</h2>
+    <p>
+        Lo que más me gusta es el anime, los videojuegos, la música y la programación.   
+    </p>
+    <p>
+        El anime me encanta por su creatividad y las historias que transmite, mientras que los videojuegos me atraen 
+        tanto por su capacidad de inmersión como por el desafío de entender sus mecánicas desde la perspectiva de un 
+        jugador y un desarrollador.
+    </p>
+    <p>
+        La música es otra gran fuente de inspiración para mí, ya que me permite conectar con ideas y emociones a un nivel 
+        más profundo.
+    </p>
+    <p>
+        Y, por supuesto, la programación es tanto mi profesión como mi pasatiempo, siempre buscando aprender nuevas tecnologías
+        y aplicarlas en proyectos innovadores.
+    </p>
+</Layout>
