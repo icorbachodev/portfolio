@@ -11,7 +11,7 @@ worksImage2:
     url: '/assets/busqueda.png'
     alt: 'second image of your project.'
 platform: Web
-stack: Nuxt.js, Bulma CSS, Firebase
+stack: React
 website: https://reactgiffy.netlify.app
 github: https://github.com/icorbachodev/reactGiffy
 ---
