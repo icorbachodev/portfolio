@@ -2,10 +2,10 @@
 title: 'Fuera'
 description: 'Página web de la banda'
 image:
-    url: '/assets/fuera.png'
+    url: '/assets/fuera.jpg'
     alt: 'Página de inicio'
 worksImage1:
-    url: '/assets/fuera.png'
+    url: '/assets/fuera.jpg'
     alt: 'first image of your project.'
 worksImage2:
     url: ''
