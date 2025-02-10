@@ -16,8 +16,6 @@ website: https://eldritchinsights.vercel.app
 github: https://github.com/icorbachodev/cthulhuBlog
 ---
 
-# Blog Narrativo Inspirado en La Llamada de Cthulhu 
-
 Desarrollé un blog narrativo basado en las historias de rol de "La Llamada de Cthulhu", donde cada entrada cuenta una aventura inmersiva en el universo de H.P. Lovecraft. 
 
 ## Características del Proyecto
