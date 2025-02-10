@@ -1,21 +1,32 @@
 ---
-title: 'React Giffy'
-description: 'Buscador de gifs con React'
+title: 'Eldritch Insights'
+description: 'Blog inspirado en la Llamada de Cthulhu'
 image:
-    url: '/assets/reactGiffy.png'
+    url: '/assets/cthulhuBlog.png'
     alt: 'Página de inicio'
 worksImage1:
-    url: '/assets/reactGiffy.png'
+    url: '/assets/cthulhuBlog.png'
     alt: 'first image of your project.'
 worksImage2:
-    url: '/assets/busqueda.png'
+    url: ''
     alt: 'second image of your project.'
 platform: Web
-stack: React
-website: https://reactgiffy.netlify.app
-github: https://github.com/icorbachodev/reactGiffy
+stack: Next.js (Fullstack), Supabase, Tailwind CSS, Shadcn/UI
+website: https://eldritchinsights.vercel.app
+github: https://github.com/icorbachodev/cthulhuBlog
 ---
 
-En mi búsqueda de mi primer trabajo como desarrollador web decidí hacer proyectos personales para rellenar el portfolio y demostrar mis habilidades de programación. Este fue uno de los primeros que realice gracias a la ayuda de Miguel Ángel Durán (midudev) con un tutorial en su canal de youtube.
+# Blog Narrativo Inspirado en La Llamada de Cthulhu 
 
-Se trata de un buscador de gifs simple pero en el que se aplican muchos de los conceptos base de la programación con React. Introduces una palabra en la barra del buscador y te mostrará los gif que esten relacionados con la palabra introducida.
+Desarrollé un blog narrativo basado en las historias de rol de "La Llamada de Cthulhu", donde cada entrada cuenta una aventura inmersiva en el universo de H.P. Lovecraft. 
+
+## Características del Proyecto
+- **Backend Fullstack:** Gestión dinámica de contenido utilizando Supabase como base de datos y almacenamiento para imágenes.
+- **Interfaz de Usuario:** Diseño elegante y responsivo con Tailwind CSS y componentes de Shadcn/UI para animaciones y una experiencia moderna.
+- **Funcionalidades Clave:**
+  - Sistema de publicación con títulos, contenido, imágenes y resúmenes (*excerpts*).
+  - Relación entre posts para mostrar historias relacionadas.
+  - Formulario de contacto al blog con integración a la base de datos.
+- **Optimización:** Rutas dinámicas con Next.js para una navegación fluida y escalable.
+
+Este proyecto destaca por su diseño temático, implementación técnica y enfoque en narrativa interactiva.
